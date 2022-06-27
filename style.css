@@ -215,12 +215,6 @@ h3 {
     padding: 30px 0;
 }
 
-    .footer h4 {
-        margin-bottom: 25px;
-        margin-top: 20px;
-        font-weight: 600;
-    }
-
 .icons .fa {
     color: #f44336;
     margin: 0 13px;
@@ -332,4 +326,22 @@ h3 {
     color:white;
 }
 
+/* Projects */
 
+.projects {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 40%;
+    flex-basis: 32%;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.projects:hover{
+    opacity: 0.5;
+    transition: 1s;
+    transform:scale(1.1);
+    cursor: pointer;
+}
